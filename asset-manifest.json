@@ -1,0 +1,144 @@
+{
+  "assets": [
+    {
+      "path": "assets/AILeverageLabNeonCircuitCard_00a3b9a9.png",
+      "bytes": 1595941,
+      "sha256": "073d62791f57053515214bec37cd12901534547f663ef468f0f8723d73c84ad5"
+    },
+    {
+      "path": "assets/ai-leverage-infographic_a3bf6c6a.png",
+      "bytes": 2872387,
+      "sha256": "6d5ac4052d3304d3b589d593f25b12c4bf22d84dec7d65d658419bbcfc0b1dfe"
+    },
+    {
+      "path": "assets/ai-leverage-lab-logo_a82081ef.webp",
+      "bytes": 26024,
+      "sha256": "73124a5e3896510d348c34dd883ecc6cca9af0ec95c166fce3fdb5259fe172ed"
+    },
+    {
+      "path": "assets/chatgpt-badge_33f0ca1b.png",
+      "bytes": 1676568,
+      "sha256": "2257f74c85acecac31b31aebe0e7c77125491c423afe0f0ab0da40cb7f3bb459"
+    },
+    {
+      "path": "assets/claude-badge_7cc9c34b.png",
+      "bytes": 1605938,
+      "sha256": "fee6ad82304d8456dced49af0606b64f4163915ba5cc1959ec70e163dcf848b5"
+    },
+    {
+      "path": "assets/dreams-cloud-badge_80942c83.png",
+      "bytes": 1636100,
+      "sha256": "276aa3776f696fd6e1fc369a2d17e80a9e3e07098e4e0cf74d820a2cdc84940f"
+    },
+    {
+      "path": "assets/dreams-cloud-infographic_8ef365bc.png",
+      "bytes": 2442685,
+      "sha256": "9be37cb094b391943ea8c11a8d1ce0c47a469e61a209ec47bb993e0cd0a199fa"
+    },
+    {
+      "path": "assets/dreams_ai_genie_intro_v2_web_31383860.mp4",
+      "bytes": 11854650,
+      "sha256": "7a155d208dffda02585d57bddd9cafdf8739b0ecaff69e8c503e0f776f6ec92c"
+    },
+    {
+      "path": "assets/dreams_ai_genie_poster_b84a395e.jpg",
+      "bytes": 216382,
+      "sha256": "989a155b0a0c2e9c34e543c182d01b019c04c81345f4787e4ca0257ba690a492"
+    },
+    {
+      "path": "assets/font-licenses/cormorantgaramond-OFL.txt",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "path": "assets/font-licenses/manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "assets/fonts/font-01.ttf",
+      "bytes": 293116,
+      "sha256": "33b46553a852ffd5ee5d7c6301a135c779e1d97d8938cc67be14e4060edb6431"
+    },
+    {
+      "path": "assets/fonts/font-02.ttf",
+      "bytes": 293312,
+      "sha256": "8ddad6fd245858b13f48aeb9977c0f2531469571ca6b7a98ef490d7f549ade58"
+    },
+    {
+      "path": "assets/fonts/font-03.ttf",
+      "bytes": 289992,
+      "sha256": "440daf036a35abd6d2bdfa92b14ab0f150cce690fe6d767ee5cab15a1a10a87f"
+    },
+    {
+      "path": "assets/fonts/font-04.ttf",
+      "bytes": 290392,
+      "sha256": "69e7ae35cba23d962227b86f99217c250e642e4c6f6104b4f3ec465039e4e2d8"
+    },
+    {
+      "path": "assets/fonts/font-05.ttf",
+      "bytes": 290496,
+      "sha256": "1724047c8988ca5155bff667bc48fa52e97d57aabc6b42eebbf986f21a4be20b"
+    },
+    {
+      "path": "assets/fonts/font-06.ttf",
+      "bytes": 94928,
+      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
+    },
+    {
+      "path": "assets/fonts/font-07.ttf",
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce"
+    },
+    {
+      "path": "assets/fonts/font-08.ttf",
+      "bytes": 95688,
+      "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950"
+    },
+    {
+      "path": "assets/fonts/font-09.ttf",
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a"
+    },
+    {
+      "path": "assets/fonts/font-10.ttf",
+      "bytes": 95060,
+      "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d"
+    },
+    {
+      "path": "assets/fonts.css",
+      "bytes": 1625,
+      "sha256": "8916ffb19a8395944ba2e031d842fce795b0ab6b52d02d159d1fbaa2e28d2248"
+    },
+    {
+      "path": "assets/gemini-badge_b372e1e8.png",
+      "bytes": 1576694,
+      "sha256": "8d5ab16c88f151714528c47f49542ee0888ce54e4620bc572ad062b093b51775"
+    },
+    {
+      "path": "assets/grok-badge_321a64b1.png",
+      "bytes": 1519652,
+      "sha256": "9aa4941e3ebb5f31121af0c992c2d6bddc5867fdfd86161703751eedee0a982c"
+    },
+    {
+      "path": "assets/meta-muse-card-v2_fd54cfe9.png",
+      "bytes": 1687536,
+      "sha256": "c50a759f949f4336dee29138374822182394be044679473e1222ddcbbac487bb"
+    },
+    {
+      "path": "assets/notebook-badge_563cf83b.png",
+      "bytes": 1589942,
+      "sha256": "a6e47219e9c7620fa11dd6f611886b08255a814b49b5695b383b042b0c9930cc"
+    },
+    {
+      "path": "assets/si-leverage-lab-logo_7725775d.webp",
+      "bytes": 25854,
+      "sha256": "fd715ed042ebf3812e30d5ca746b0a671a506db8e0b8b25e68abc07e1ff5b347"
+    },
+    {
+      "path": "assets/youtube-badge_b0c0a79d.png",
+      "bytes": 1565684,
+      "sha256": "238a6b86bfac112f710bcb74208926a0ba089287d3bf92676b633774d2001be7"
+    }
+  ]
+}
