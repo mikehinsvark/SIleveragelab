@@ -29,6 +29,8 @@ button { font: inherit; }
 .brand { display: inline-flex; align-items: center; gap: 10px; min-width: 0; }
 .brand-logo-link { display: block; max-width: 100%; flex-shrink: 1; }
 .brand-logo { display: block; width: 300px; max-width: 100%; height: auto; object-fit: contain; border-radius: 5px; }
+.header-brands { display: flex; align-items: center; gap: 12px; width: 492px; max-width: 100%; min-width: 0; flex: 0 1 492px; }
+.header-brands .brand-logo-link { display: flex; align-items: center; justify-content: center; min-width: 0; min-height: 44px; flex: 1 1 0; }
 .site-header .brand-logo { width: 240px; }
 .footer-brand .brand-logo { width: 250px; }
 .footer-secondary-brand { margin-top: 10px; max-width: 100%; }
@@ -166,6 +168,7 @@ h1 em, h2 em { color: var(--teal); font-style: italic; font-weight: 600; }
   .carousel { width: min(100%, clamp(220px, calc(100svh - 360px), 340px)); }
 }
 @media (max-width: 1020px) {
+  .header-nav { display: none; }
   .hero { grid-template-columns: 1fr; max-width: 770px; margin: 0 auto; }
   .hero-copy { text-align: center; align-items: center; }
   .hero .eyebrow { justify-content: center; }
