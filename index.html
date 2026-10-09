@@ -23,6 +23,7 @@
     <title>AI Leverage Lab | AI Resource Hub</title>
     <link rel="stylesheet" href="./assets/fonts.css" />
     <link rel="stylesheet" href="./styles.css?v=cards-first-20261009" />
+    <link rel="stylesheet" href="./launchpad.css?v=launchpad-20261009" />
   </head>
   <body>
     <div class="page-noise" aria-hidden="true"></div>
@@ -39,11 +40,48 @@
         <nav class="header-nav" aria-label="Primary navigation">
           <a href="#resources">Resource library</a>
           <a href="#ecosystem">Ecosystem maps</a>
+          <a class="training-link" href="https://aileveragelab.pro/" target="_blank" rel="noopener noreferrer">AI Leverage Lab <span aria-hidden="true">↗</span></a>
         </nav>
-        <a class="header-cta" href="#resources">Explore tools <span aria-hidden="true">↘</span></a>
       </header>
 
       <main>
+        <section class="launchpad-hero" id="launchpad" aria-labelledby="launchpad-title">
+          <div class="launchpad-heading">
+            <h1 id="launchpad-title">Your <em>AI advantage</em> starts here<span>.</span></h1>
+            <p>Eight powerful destinations. Choose your next move.</p>
+          </div>
+          <div class="launchpad-board">
+            <p class="launchpad-label" id="launchpad-label">Your AI Launchpad</p>
+            <div class="launchpad-grid" role="group" aria-labelledby="launchpad-label">
+              <a class="launch-card" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" aria-label="Open ChatGPT — Think, create, talk (new tab)">
+                <img src="./assets/launchpad/chatgpt.webp" alt="ChatGPT — Think, create, talk" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card launch-card--claude" href="https://claude.ai/" target="_blank" rel="noopener noreferrer" aria-label="Open Claude — Write, reason, refine (new tab)">
+                <img src="./assets/launchpad/claude.webp" alt="Claude — Write, reason, refine" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://x.ai/bot" target="_blank" rel="noopener noreferrer" aria-label="Open Grok Bots — Explore, research, create (new tab)">
+                <img src="./assets/launchpad/grok.webp" alt="Grok Bots — Explore, research, create" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" aria-label="Open Gemini — Plan, explore, create (new tab)">
+                <img src="./assets/launchpad/gemini.webp" alt="Gemini — Plan, explore, create" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://notebook.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Gemini Notebook — Study your sources (new tab)">
+                <img src="./assets/launchpad/notebook.webp" alt="Gemini Notebook — Study your sources" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="Open YouTube — Watch, learn, apply (new tab)">
+                <img src="./assets/launchpad/youtube.webp" alt="YouTube — Watch, learn, apply" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://aileveragelab.pro/" target="_blank" rel="noopener noreferrer" aria-label="Open AI Leverage Lab — Build your AI skills (new tab)">
+                <img src="./assets/launchpad/ai-leverage-lab.webp" alt="AI Leverage Lab — Build your AI skills" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+              <a class="launch-card" href="https://dreams3pkg-5hqcaqth.manus.space/?refid=AA0233#pricing" target="_blank" rel="noopener noreferrer" aria-label="Open Dreams Cloud — Manage, follow up, grow (new tab)">
+                <img src="./assets/launchpad/dreams-cloud.webp" alt="Dreams Cloud — Manage, follow up, grow" width="1100" height="859" loading="eager" decoding="async" />
+              </a>
+            </div>
+          </div>
+          <p class="launchpad-footnote">Choose a tool. Put it to work.</p>
+        </section>
+
         <section class="resources section" id="resources" aria-labelledby="resources-title">
           <div class="section-heading">
             <div>
@@ -206,7 +244,7 @@
         <section class="hero" id="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
             <p class="eyebrow"><span></span> AI Leverage Lab · Resource hub</p>
-            <h1 id="hero-title">Choose the right AI.<br /><em>Build your advantage.</em></h1>
+            <h2 class="hero-headline" id="hero-title">Choose the right AI.<br /><em>Build your advantage.</em></h2>
             <p class="hero-lead">
               A focused resource room for the platforms that help modern business builders think,
               create, operate, and learn with more leverage.
@@ -364,14 +402,15 @@
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 15 6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
       </button>
       <div class="scroll-stops" role="group" aria-label="Jump to a page section">
-        <button class="scroll-marker is-active" type="button" data-page-stop="#resources" data-label="Resource library" aria-label="Jump to the resource library and top of the page" aria-current="step"><span></span></button>
+        <button class="scroll-marker is-active" type="button" data-page-stop="#launchpad" data-label="AI Launchpad" aria-label="Jump to the AI Launchpad and top of the page" aria-current="step"><span></span></button>
+        <button class="scroll-marker" type="button" data-page-stop="#resources" data-label="Resource library" aria-label="Jump to the resource library"><span></span></button>
         <button class="scroll-marker" type="button" data-page-stop=".resource-card:nth-child(4)" data-label="Resources 04–06" aria-label="Jump to resources four through six"><span></span></button>
         <button class="scroll-marker" type="button" data-page-stop=".resource-card:nth-child(7)" data-label="Resources 07–09" aria-label="Jump to resources seven through nine"><span></span></button>
         <button class="scroll-marker" type="button" data-page-stop="#hero" data-label="Hero + carousel" aria-label="Jump to the hero and featured carousel"><span></span></button>
         <button class="scroll-marker" type="button" data-page-stop="#ecosystem" data-label="Ecosystem maps" aria-label="Jump to the ecosystem maps"><span></span></button>
         <button class="scroll-marker" type="button" data-page-stop=".site-footer" data-label="Footer" aria-label="Jump to the footer and bottom of the page"><span></span></button>
       </div>
-      <span class="scroll-status" data-scroll-status aria-hidden="true">01 / 06</span>
+      <span class="scroll-status" data-scroll-status aria-hidden="true">01 / 07</span>
       <button class="scroll-arrow" type="button" data-scroll-down aria-label="Scroll to the next page section" title="Scroll down">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
       </button>

@@ -1,0 +1,68 @@
+/* Compact, real-link launchpad built from the user's complete card artworks. */
+.header-nav { gap: 20px; }
+.header-nav .training-link { color: var(--teal-bright); white-space: nowrap; }
+.launchpad-hero { position: relative; isolation: isolate; padding: 16px clamp(20px, 3.5vw, 48px) 18px; border-bottom: 1px solid var(--line); background: radial-gradient(ellipse at 3% 50%, rgba(27, 72, 190, .17), transparent 42%), radial-gradient(ellipse at 94% 45%, rgba(109, 55, 197, .13), transparent 40%), linear-gradient(180deg, #030c16, #061825 72%, #020c15); }
+.launchpad-hero::before { position: absolute; z-index: -1; inset: 0; opacity: .45; background-image: radial-gradient(circle, #9fccff 1px, transparent 1.2px), radial-gradient(circle, #288dba .6px, transparent 1px); background-size: 131px 113px, 73px 91px; background-position: 29px 15px, 10px 51px; content: ""; pointer-events: none; }
+.launchpad-hero::after { position: absolute; z-index: -1; bottom: 0; left: 0; right: 0; height: 35%; background: radial-gradient(ellipse at 50% 140%, rgba(1,177,229,.2), transparent 68%); content: ""; pointer-events: none; }
+.launchpad-heading { text-align: center; margin-bottom: 18px; }
+.launchpad-heading h1 { max-width: none; margin: 0 0 5px; font-family: var(--sans); font-size: clamp(28px, 3.4vw, 50px); font-weight: 800; line-height: 1.14; letter-spacing: -.045em; }
+.launchpad-heading h1 em { color: #22e3ed; font-weight: 800; font-style: normal; }
+.launchpad-heading h1 > span { color: var(--gold); }
+.launchpad-heading > p { margin: 0; color: #a9bfce; font-size: clamp(12px, 1.25vw, 16px); line-height: 1.5; }
+.launchpad-board { position: relative; width: 100%; max-width: 1190px; margin: 0 auto; padding: 22px 14px 12px; border: 1px solid rgba(56,229,240,.8); border-radius: 22px; background: rgba(1,12,20,.85); box-shadow: 0 0 0 1px rgba(5,147,172,.15), inset 0 0 30px rgba(17,161,184,.08), 0 0 35px rgba(15,169,213,.12); }
+.launchpad-label { position: absolute; top: 0; left: 50%; display: flex; align-items: center; gap: 14px; padding: 2px 18px; margin: 0; width: max-content; max-width: 90%; background: #04121d; color: #29e1e7; font-size: 10px; font-weight: 700; line-height: 1.5; letter-spacing: .26em; text-transform: uppercase; transform: translate(-50%, -50%); }
+.launchpad-label::before, .launchpad-label::after { width: 22px; height: 1px; background: var(--gold); content: ""; }
+.launchpad-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.launch-card { display: block; min-width: 0; position: relative; border-radius: 17px; background: #020d15; transition: transform .2s ease, box-shadow .2s ease, filter .2s ease; }
+.launch-card img { display: block; width: 100%; height: auto; aspect-ratio: 1100 / 859; object-fit: contain; border-radius: inherit; }
+.launch-card:hover, .launch-card:focus-visible { transform: translateY(-3px); filter: brightness(1.13); box-shadow: 0 0 0 1px #21e9ee, 0 0 24px rgba(0,227,244,.35), 0 10px 30px rgba(0,0,0,.5); }
+.launch-card--claude:hover, .launch-card--claude:focus-visible { box-shadow: 0 0 0 1px #ffa475, 0 0 24px rgba(255,132,86,.5), 0 10px 30px rgba(0,0,0,.5); }
+.launchpad-footnote { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 10px 0 0; color: #a4bbcb; font-size: 10px; line-height: 1.5; letter-spacing: .14em; }
+.launchpad-footnote::before, .launchpad-footnote::after { content: ""; width: 45px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.hero-headline { max-width: 650px; margin-bottom: 18px; font-family: var(--serif); font-size: clamp(3rem, 4.4vw, 4.4rem); font-weight: 600; line-height: .96; letter-spacing: -.045em; }
+@media (min-width: 1021px) {
+  .launchpad-board { max-width: min(1190px, calc((100svh - 292px) * 2.48)); }
+}
+@media (max-width: 1020px) {
+  .header-nav { display: flex; gap: 15px; }
+  .header-nav a { white-space: nowrap; font-size: 10px; }
+  .header-brands { flex-basis: 420px; }
+  .launchpad-heading h1 { font-size: clamp(28px, 4vw, 40px); }
+}
+@media (max-width: 800px) {
+  .site-header { flex-wrap: wrap; justify-content: center; gap: 0; padding-bottom: 6px; }
+  .header-brands { flex: 0 1 492px; }
+  .header-nav { justify-content: center; width: 100%; margin-left: 0; gap: 22px; }
+  .header-nav a { display: flex; align-items: center; min-height: 32px; font-size: 10px; }
+  .launchpad-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .launchpad-board { max-width: 620px; padding: 20px 10px 10px; border-radius: 18px; }
+  .launchpad-hero { padding: 18px 18px 16px; }
+}
+@media (max-width: 700px) {
+  html { scroll-padding-top: 122px; }
+  .site-header { padding: 4px 12px 6px; }
+  .header-nav { gap: 16px; }
+  .header-nav a { font-size: 9px; }
+  .launchpad-heading { margin-bottom: 18px; }
+  .launchpad-heading h1 { font-size: clamp(26px, 6.6vw, 36px); }
+  .launchpad-heading > p { max-width: 320px; margin: 0 auto; font-size: 11px; }
+  .launchpad-hero { padding-inline: 12px; }
+  .launchpad-grid { gap: 7px; }
+  .launch-card { border-radius: 10px; }
+  .launchpad-label { gap: 8px; padding-inline: 10px; font-size: 8px; letter-spacing: .16em; }
+  .launchpad-label::before, .launchpad-label::after { width: 14px; }
+  .launchpad-footnote { gap: 8px; font-size: 8px; letter-spacing: .07em; }
+  .launchpad-footnote::before, .launchpad-footnote::after { width: 22px; }
+  .hero-headline { font-size: clamp(3.1rem, 14.5vw, 4.2rem); }
+  .video-launcher { left: 14px; right: auto; bottom: calc(14px + env(safe-area-inset-bottom)); }
+}
+@media (max-width: 350px) {
+  .header-nav { gap: 10px; }
+  .header-nav a { font-size: 8px; }
+  .launchpad-grid { grid-template-columns: 1fr; }
+  .launchpad-board { max-width: 260px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .launch-card { transition: none; }
+  .launch-card:hover, .launch-card:focus-visible { transform: none; }
+}
