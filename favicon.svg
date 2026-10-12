@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SI Leverage Lab lightning emblem">
+  <defs>
+    <linearGradient id="si-energy" x1="14" y1="8" x2="50" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35f5df"/>
+      <stop offset=".46" stop-color="#00dbea"/>
+      <stop offset="1" stop-color="#1887ff"/>
+    </linearGradient>
+    <radialGradient id="si-spark" cx=".3" cy=".25" r=".8">
+      <stop stop-color="#fff2af"/>
+      <stop offset=".5" stop-color="#ffd35e"/>
+      <stop offset="1" stop-color="#c8891b"/>
+    </radialGradient>
+  </defs>
+  <path d="M7.3 37 A25.2 25.2 0 0 1 49.6 13.9 M56 22 A25.2 25.2 0 0 1 11.4 46.5" fill="none" stroke="url(#si-energy)" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M26 12 H36 L29.5 29 H45 L30 41 H36 L20.8 55 L26.5 37 H17 L24.5 29 H20.5 Z" fill="url(#si-energy)" stroke="#002738" stroke-width=".6" stroke-linejoin="round"/>
+  <circle cx="53" cy="18" r="3.3" fill="url(#si-spark)"/>
+</svg>
